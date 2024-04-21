@@ -1,9 +1,33 @@
-git clone https://github.com/username/username.github.io
-cd iirsh.github.io
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>My</title>
+    <!----CSS link----->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <nav>
+        <img src="img/2.png" class="logo" />
+        <ul>
+          <li><a href="home_page.html">Home</a></li>
+                <li><a href="favorites.html">Favorites</a></li>
+                <li><a href="hobbies.html">Hobbies</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+        </ul>
+        <a href="sign_in.html" class="btn">Sign in</a>
+      </nav>
 
-echo "Hello World" > index.html
-git add --all
-
-git commit -m "Initial commit"
-
-git push -u origin main
+      <div class="content">
+        <span class="title">Let's Explore</span>
+        <h1>Hello,<span>Welcome</span></h1>
+        <p>
+          Let's know each others interests.
+        </p>
+        <a href="create_account.html" class="btn">Create account</a>
+      </div>
+    </div>
+  </body>
+</html>
